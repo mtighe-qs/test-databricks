@@ -17,8 +17,8 @@ SELECT
     tpep_dropoff_datetime,
     trip_distance,
     fare_amount,
-    pickup_zip,
-    dropoff_zip
+    pickup_zip
+    -- dropoff_zip
 FROM 
     samples.nyctaxi.trips
 WHERE 
